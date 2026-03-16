@@ -9,13 +9,6 @@ Download dataset from this link,
 🔗 Dataset Access: 
 [PADS - Parkinsons Disease Smartwatch dataset v1.0.0
 ](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/movement/)__
-______________________________________
-3. Project Workflow: Step-by-Step
-Step	Phase	Action	Key Output
-1	Extraction	Python script parses raw patient JSON/CSV files.	Aggregated sensor data.
-2	Feature Eng.	Calculation of RMS (Intensity) & Frequency peaks.	Tremor Severity Ratings.
-3	Storage	Cleaned data is migrated to a PostgreSQL schema.	Structured SQL database.
-4	Visualization	Power BI connects to SQL for real-time reporting.	Interactive Tremor Dashboard.
 ________________________________________
 3. Technical Architecture
 Key Metrics Calculated
@@ -33,7 +26,7 @@ Organizing your files this way ensures the judges can navigate your work easily:
 •	📁 Data Transformation/ – DataDetectives3_DataTransformation_SQL.sql (Create table script and restore data).
 •	📁 Data Cleaning/- DataDetectives03_CleanedData.sql (DDL and DML scripts for PostgreSQL cleaning).
 ________________________________________
-6. Deployment Guide
+5.Deployment Guide
 1.	Dataset: Download the PADS dataset.
 2.	Processing: Execute the Jupyter Notebook to transform raw signals into summary features.
 3.	Database: Import the resulting CSVs into your PostgreSQL environment using our SQL scripts.
