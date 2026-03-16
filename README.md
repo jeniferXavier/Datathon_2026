@@ -6,8 +6,10 @@ By processing high-frequency accelerometer and gyroscope signals, we identify ob
 ________________________________________
 2.Dataset
 Download dataset from this link,
-🔗 Dataset Access: PADS - Parkinsons Disease Smartwatch dataset v1.0.0
-________________________________________
+🔗 Dataset Access: 
+[PADS - Parkinsons Disease Smartwatch dataset v1.0.0
+](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/movement/)__
+______________________________________
 3. Project Workflow: Step-by-Step
 Step	Phase	Action	Key Output
 1	Extraction	Python script parses raw patient JSON/CSV files.	Aggregated sensor data.
